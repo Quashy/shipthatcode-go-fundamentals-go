@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 	// Print the greeting below.
-	var a, b int
-	fmt.Scan(&a)
-	fmt.Scan(&b)
-	fmt.Print(a + b)
+	var w, h int
+	fmt.Scan(&w)
+	fmt.Scan(&h)
+	fmt.Print(w * h)
 }
